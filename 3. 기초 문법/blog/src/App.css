@@ -1,0 +1,54 @@
+div{
+  box-sizing: border-box;
+}
+
+.test{
+  padding-left: 20px;
+  display: flex;
+  background-color:#282c34;
+  width: 100%;
+  color: aliceblue;
+}
+
+.list{
+  padding-left: 20px;
+  text-align: left;
+  border-bottom: 1px solid gray;
+}
+
+.modal{
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #eee;
+  text-align: left;
+}
+
+.modalBackground{
+  top: 0;
+  left: 0;
+
+  /*viewport-width & "-height*/
+  width: 100vw;
+  height : 100vh;
+  
+  position: absolute;
+  background-color : rgba(0,0,0,0.2);
+  z-index: 100;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalBody{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 25px;
+  background-color: white;
+  
+  width: 600px;
+  height: 600px;
+}

@@ -1,0 +1,14 @@
+.header{
+  grid-area: header;
+  background-color: tomato;
+  
+  &_title{
+    margin: 0 ;
+  }
+  &_nav{  
+    span{
+      color: skyblue;
+      margin-right: 10px;
+    }
+  }
+}

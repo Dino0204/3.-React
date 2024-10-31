@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App{
+  padding: 20px;
+} 
+
+a{
+  color:rgb(187, 192, 250);
+  text-decoration: none;
+}
+
+a:hover{
+  color: rgb(80, 79, 182);
+}
+
+table{ border-collapse : collapse; }  /*이중선 제거*/
+th,td{
+  width: 150px;
+  height: 30px;
+
+  text-align: center;
+  border: 1px solid #000;
+  
+  vertical-align: top;	/* 위 */
+  vertical-align: bottom;   /* 아래 */
+  vertical-align: middle;   /* 가운데 */
+}

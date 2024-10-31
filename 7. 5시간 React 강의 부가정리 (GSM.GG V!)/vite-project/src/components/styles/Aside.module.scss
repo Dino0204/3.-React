@@ -1,0 +1,17 @@
+.sidebar{
+  grid-area: b;
+
+  display: flex;
+  flex-direction: column;
+  
+  background-color: #3B8CFF;
+
+  font-weight: 700;
+  color: white;
+  
+  height: 100%;
+
+  &_aside{
+    width: 100%;
+  }
+}

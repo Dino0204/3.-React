@@ -1,0 +1,13 @@
+body {
+    background-color: lightcyan;
+}
+
+a {
+    color: rgb(50, 50, 170);
+    text-decoration: none;
+}
+
+#HomeGrid {
+    background-color: aliceblue;
+}
+

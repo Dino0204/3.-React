@@ -1,0 +1,20 @@
+.header{
+  top: 0;
+  grid-area: a;
+  position: fixed;
+  width: 100%;
+  background-color: #3B8CFF;
+
+  &_title{
+    margin: 0;
+    font-weight: 800;
+    cursor: pointer;
+  }
+
+  &_navigation{
+    background-color: #ABCEFF;
+    &_Link{
+      margin-right: 10px;
+    }
+  }
+}

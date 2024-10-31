@@ -1,0 +1,79 @@
+body{
+  background-color: #f9f9f9;
+  margin: 0px;
+  width: 100vw;
+}
+
+
+.cssTestField{
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#glassBox:checked ~ .cssTestField{
+  /* position: relative;
+  z-index: 100; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('../imgs/twinfish.avif');
+} 
+
+
+.Modal{
+  width: 600px;
+  height: 300px;
+  margin: 20px;
+  background-color: white;
+
+  /*내부로 보더생성*/
+  /* box-shadow: 0 0 0 2px black inset;   */
+
+  color: rgb(29, 29, 56);
+
+  border: solid 1px black;
+  border-radius: 25px;
+
+  flex-direction: column;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+#shadowModal:hover{
+  box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.1),
+  -10px -10px 10px white;
+
+  border: none;
+}
+
+label{
+  font-size:36px;
+}
+
+#container{
+  display: none;
+}
+
+#checkBox:checked ~ #container{
+  display: block;
+}
+
+
+#sizeModal{
+  /* width: min(90%,800px); */
+  /*min prefered max*/
+  width: clamp(400px,50vw,600px);
+}
+
+
+#glassModal{
+  background-color: rgba(255, 255, 255, 0.1); 
+  backdrop-filter: blur(10px);
+}
+
+

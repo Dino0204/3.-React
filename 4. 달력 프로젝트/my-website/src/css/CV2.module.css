@@ -1,0 +1,141 @@
+body{
+  background-image: url('../imgs/twinfish.avif');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  font-weight: 700;
+
+}
+
+
+
+.calanderWrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.todayName{
+  width: 360px;
+  height: 45px;
+  margin-bottom: 10px;
+  
+  font-size: larger;
+  color: whitesmoke;
+  
+  border-radius: 25px;
+
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calanderV2{
+  width: max-content;
+  height: max-content;
+
+  background-color: rgba(121, 78, 214, 0.1);
+  backdrop-filter: blur(10px);
+  
+  overflow: hidden;
+
+  border-radius: 25px;
+  border: solid 1px black;
+  
+  /* box-shadow: 0 0 0 2px black inset; */ /*내부로 보더생성*/
+}
+
+.weekHead{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.weekKorName{
+  width: 35px;
+  height: 35px;
+
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+  color: whitesmoke;
+  background-color: #439A97;
+}
+
+.month{
+  width: 560px;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+
+
+
+.date{
+  width: 80px;
+  height: 100px;
+  
+  color: rgb(85, 85, 91);  
+  background-color: rgba(78, 214, 205, 0.345);
+  backdrop-filter: blur(10px);
+    
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.date > h3{
+
+  width: 50px;
+  height: 50px;
+
+  background-color: #7ed2a7;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+}
+
+.sun{
+  color: rgb(205, 58, 58);
+}
+
+.sat{
+  color: rgb(50, 50, 174);
+}
+
+.calanderHead{
+  color: whitesmoke;
+
+  font-size: larger;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#leftBtn{
+  width: 12px;
+  margin-left: 10px;
+  filter: invert(54%) sepia(17%) saturate(1199%) hue-rotate(129deg) brightness(96%) contrast(84%);
+  transform:rotate(180deg);
+}
+
+#rightBtn{  
+  width: 12px;
+  margin-right: 10px;
+  filter: invert(54%) sepia(17%) saturate(1199%) hue-rotate(129deg) brightness(96%) contrast(84%);
+}

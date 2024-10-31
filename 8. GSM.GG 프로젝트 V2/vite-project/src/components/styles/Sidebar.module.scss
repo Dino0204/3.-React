@@ -1,0 +1,21 @@
+.sidebar{
+  grid-area: side;
+  display: none;
+  &_input{
+    appearance: none;
+    margin: 0;
+  
+    border: solid 1px black;
+    background-color: black;
+    
+    width: 24px;
+    height: 24px;
+    
+    &:checked{
+      background-color: blue;
+    }
+  }
+  &_content{
+    background-color: red;
+  }
+}
